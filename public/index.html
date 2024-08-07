@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart.js Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-200 text-neutral-800 px-12 py-8">
+    <div>
+        <div class="font-semibold">Sekme: <span id="sekme"></span></div>
+        <div class="font-semibold">Program: <span id="program"></span></div>
+        <div class="font-semibold">Baslik: <span id="baslik"></span></div>
+        <div class="font-semibold pb-12">Tesis: <span id="tesis"></span></div>
+        <div class="w-full h-96 flex justify-between">
+            <canvas class="w-20" id="chart1" width="200" height="100"></canvas>
+            <canvas class="w-20" id="chart2" width="200" height="100"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

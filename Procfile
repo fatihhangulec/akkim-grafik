@@ -1,0 +1,1 @@
+web: curl -4 icanhazip.com && node index.js
