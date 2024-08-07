@@ -1,6 +1,6 @@
 // Sayfa yüklendiğinde veri çekme
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('http://localhost:3000/sonuclar')
+    fetch('https://akkim-grafik-606784a7302d.herokuapp.com/sonuclar')
         .then(response => response.json())
         .then(data => {
             // Gelen JSON verisini JS nesnesine çevirme
